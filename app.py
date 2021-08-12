@@ -16,8 +16,19 @@ def all():
 
 @app.route('/')
 def hello_world():
+    news = ''
+    try:
+        url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=535004688cfc441999c842426b52bc39"
+        results = request('GET', url)
+        content = results.content
+        content = json.loads(content)
+        news = content['articles']
+    except Exception as err:
+        print('News Error: ', err)
     pageInfo = {
         'title': 'Welcome',
+        'slide': slide,
+        'news': news
     }
     return render_template('index.html', name="Welcome", pg=pageInfo)
 
