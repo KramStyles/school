@@ -346,14 +346,14 @@
                             {% if loop.index > 1 and loop.index < 5 %}
                                 <div class="col-lg-6">
                                     <div class="post-entry-big horizontal d-flex mb-4">
-                                        <a href="news-single.html" class="img-link mr-4"><img src="/static/images/xblog_1.jpg.pagespeed.ic.W_YnMVf_Za.jpg" alt="Image" class="img-fluid"></a>
+                                        <a href="{{ news['url'] }}" class="img-link mr-4"><img src="{{ news['urlToImage'] }}" alt="Image" class="img-fluid"></a>
                                         <div class="post-content">
                                             <div class="post-meta">
-                                                <a href="#">June 6, 2019</a>
+                                                <a href="#">{{ news['publishedAt'] }}</a>
                                                 <span class="mx-1">/</span>
-                                                <a href="#">Admission</a>, <a href="#">Updates</a>
+                                                <a href="#">{{ news['source']['name'] }}</a>
                                             </div>
-                                            <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
+                                            <h3 class="post-heading"><a href="{{ news['url'] }}">{{ news['title'] }}</a></h3>
                                         </div>
                                     </div>
                                 </div>
