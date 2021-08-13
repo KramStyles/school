@@ -342,11 +342,11 @@
                                 </div>
                             {% endif %}
                         {% endfor %}
+                        <div class="col-lg-6">
                         {% for news in pg['news'] %}
                             {% if loop.index > 1 and loop.index < 5 %}
-                                <div class="col-lg-6">
-                                    <div class="post-entry-big horizontal d-flex mb-4">
-                                        <a href="{{ news['url'] }}" class="img-link mr-4"><img src="{{ news['urlToImage'] }}" alt="Image" class="img-fluid"></a>
+                                    <div class="post-entry-big horizontal d-flex mb-4 align-items-center">
+                                        <a href="{{ news['url'] }}" class="img-link mr-4 mb-0"><img src="{{ news['urlToImage'] }}" alt="Image" class="img-fluid"></a>
                                         <div class="post-content">
                                             <div class="post-meta">
                                                 <a href="#">{{ news['publishedAt'] }}</a>
@@ -356,10 +356,9 @@
                                             <h3 class="post-heading"><a href="{{ news['url'] }}">{{ news['title'] }}</a></h3>
                                         </div>
                                     </div>
-                                </div>
                             {% endif %}
                         {% endfor %}
-
+                        </div>
                     </div>
 
                 </div>

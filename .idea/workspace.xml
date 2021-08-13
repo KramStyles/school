@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd148326-1f40-41a3-9939-66577c19af09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -209,7 +210,8 @@
       <workItem from="1628414114217" duration="13256000" />
       <workItem from="1628583607408" duration="74000" />
       <workItem from="1628602434421" duration="677000" />
-      <workItem from="1628757617889" duration="4704000" />
+      <workItem from="1628757617889" duration="5288000" />
+      <workItem from="1628853947814" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="Just normal flask project">
       <created>1627939161083</created>
@@ -253,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628762638609</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add the news api to the remaining 3">
+      <created>1628762807199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628762807199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +288,8 @@
     <MESSAGE value="Added our mega menu" />
     <MESSAGE value="Changed our colors to yellow" />
     <MESSAGE value="Getting news item from newsapi and looping our sliders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting news item from newsapi and looping our sliders" />
+    <MESSAGE value="add the news api to the remaining 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the news api to the remaining 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
