@@ -77,6 +77,7 @@ def register():
     }
     return render_template('register.html', pg=pageInfo)
 
+import admin
 
 if __name__ == '__main__':
     app.run(debug=True)

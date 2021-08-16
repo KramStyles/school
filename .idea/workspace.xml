@@ -2,8 +2,264 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd148326-1f40-41a3-9939-66577c19af09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/css/colors/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/css/metisMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/css/preloader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/bak_hovers/sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/card/card-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/card/card-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/client_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/crm/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/crm/businessman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/crm/customer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/crm/infographic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/crm/sqr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/customers/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/customers/pro_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/customers/pro_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/customers/pro_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/customers/pro_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/customers/pro_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/customers/pro_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/dateBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/default-skin/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/default-skin/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon/bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon/calender_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon/icon_search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon/msg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon2/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon2/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon2/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon2/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon2/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon2/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/icon2/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/line_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/logo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/14.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/15.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/17.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/18.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/19.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/21.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/menu-icon/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/messages/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/messages/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/messages/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/messages/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/messages/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/mini_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/plane_thumb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/pro_complete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/products/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/products/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/products/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/products/img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/products/img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/products/img-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/profilebox/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/profilebox/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/profilebox/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/profilebox/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/profilebox/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/profilebox/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/progress/design-progress-red.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/progress/design-progress-yellow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/progress/progress-bg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/shape_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/staf/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/staf/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/staf/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/staf/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/staf/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/tilt/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/tilt/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/tilt/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/tilt/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/tilt/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/tilt/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/tilt/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/img/weather_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/ckeditor-classic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/dashboard_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/amchart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/amcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/ammap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/amstock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/dataloader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/export.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/serial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/am_chart/worldLow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/animation/tilt/tilt-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/animation/tilt/tilt.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/animation/wow/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/animation/wow/wow-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/animation/wow/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/apex_chart/apex-chart2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/apex_chart/apex_chart_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/apex_chart/apex_dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/apex_chart/apexchart_lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/apex_chart/apexcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/apex_chart/bar_active_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/activation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/core/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/core/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/daygrid/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/daygrid/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/interaction/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/list/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/list/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/timegrid/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/calender_js/timegrid/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/chart_am/animated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/chart_am/chart-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/chart_am/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/chart_am/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/chart_am/kelly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/chartjs/chartjs_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/chartjs/roundedBar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/chartlist/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/count_up/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/count_up/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/css/buttons.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/css/responsive.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/images/sort_asc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/images/sort_asc_disabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/images/sort_both.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/images/sort_desc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/images/sort_desc_disabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/buttons.flash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/buttons.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/buttons.print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/dataTables.buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/dataTables.responsive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/pdfmake.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datatable/js/vfs_fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datepicker/date-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datepicker/datepicker.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datepicker/datepicker.en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/datepicker/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/drag/dragable_sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/drag/jquery.ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/drag/sortable-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-brands-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-regular-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-solid-900.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/font_awesome/webfonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/gijgo/gijgo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/jquery-sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/jquery-sparkline/spactkine_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/mapJs/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/mapJs/mapsjs-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/mapJs/mapsjs-mapevents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/mapJs/mapsjs-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/mapJs/mapsjs-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/mapJs/mapsjs_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/material_icon/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/material_icon/material-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/material_icon/material-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/morris/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/niceselect/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/niceselect/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/nvd3/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/nvd3/layers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/nvd3/nv.d3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/owl_carousel/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/owl_carousel/css/owl.video.play.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/owl_carousel/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/photoswip/photoswipe-ui-default.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/photoswip/photoswipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/photoswip/photoswipe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/progressbar/jquery.barfiller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/scroll/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/scroll/scrollable-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/scroll/scrollable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/scroll_reval/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/scroll_reval/reveal-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/scroll_reval/scrollreveal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/select2/css/select2.min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/swiper_slider/css/swiper.min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/tagsinput/tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/tagsinput/tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/text_editor/fonts/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/text_editor/fonts/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/text_editor/fonts/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/text_editor/summernote-bs4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/text_editor/summernote-bs4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/themefy_icon/fonts/themify9f24.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/themefy_icon/fonts/themify9f24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/themefy_icon/fonts/themify9f24.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/themefy_icon/fonts/themify9f24.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/themefy_icon/fonts/themifyd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/themefy_icon/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/vectormap-home/vectormap-2.0.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/vectormap-home/vectormap-2.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/vectormap-home/vectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/jvectormap-2.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/jvectormap-asia-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/jvectormap-au-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/jvectormap-chicago-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/jvectormap-in-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/jvectormap-uk-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/jvectormap-us-aea-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/map-vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/vendors/verctorMap/vector-map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/database/sql.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/add_admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/footer.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/header.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/layout.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +267,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -26,20 +313,24 @@
   <component name="ProjectId" id="1wBj3zvAzfGZeCDflpI1wCD9wgu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/pexels" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/dashboard" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\hacker" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\dashboard" />
+      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static\dashboard" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static\images\pexels" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\layouts" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static" />
-      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\hacker" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,6 +481,21 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56fe33a3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -211,7 +517,8 @@
       <workItem from="1628583607408" duration="74000" />
       <workItem from="1628602434421" duration="677000" />
       <workItem from="1628757617889" duration="5288000" />
-      <workItem from="1628853947814" duration="816000" />
+      <workItem from="1628853947814" duration="2578000" />
+      <workItem from="1629117141374" duration="4372000" />
     </task>
     <task id="LOCAL-00001" summary="Just normal flask project">
       <created>1627939161083</created>
@@ -262,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628762807199</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed the remaining 3 column error">
+      <created>1628854949934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628854949934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +603,8 @@
     <MESSAGE value="Changed our colors to yellow" />
     <MESSAGE value="Getting news item from newsapi and looping our sliders" />
     <MESSAGE value="add the news api to the remaining 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the news api to the remaining 3" />
+    <MESSAGE value="fixed the remaining 3 column error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the remaining 3 column error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
