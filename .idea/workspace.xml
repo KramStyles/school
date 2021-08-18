@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd148326-1f40-41a3-9939-66577c19af09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/errors/error_400.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/errors/error_401.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/errors/error_500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/add_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/add_admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/footer.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/layouts/footer.jinja2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/header.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/layouts/header.jinja2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/layout.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/layouts/layout.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/database/sql.db" beforeDir="false" afterPath="$PROJECT_DIR$/static/database/sql.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard/layouts/layout.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/layouts/layout.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +42,13 @@
         <item name="sql.db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="admin: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -242,7 +245,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56fe33a3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@42368b5d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@42368b5d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@304f830e" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -273,7 +281,8 @@
       <workItem from="1628757617889" duration="5288000" />
       <workItem from="1628853947814" duration="2578000" />
       <workItem from="1629117141374" duration="5268000" />
-      <workItem from="1629198358137" duration="8315000" />
+      <workItem from="1629198358137" duration="9173000" />
+      <workItem from="1629288924095" duration="6119000" />
     </task>
     <task id="LOCAL-00001" summary="Just normal flask project">
       <created>1627939161083</created>
@@ -338,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629123386625</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Error pages 500, 404, 401 added. Introduced basic flask login concept">
+      <created>1629207337330</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629207337331</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +383,8 @@
     <MESSAGE value="add the news api to the remaining 3" />
     <MESSAGE value="fixed the remaining 3 column error" />
     <MESSAGE value="added dashboard files with a single dashboard html layout (add admin)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dashboard files with a single dashboard html layout (add admin)" />
+    <MESSAGE value="Error pages 500, 404, 401 added. Introduced basic flask login concept" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error pages 500, 404, 401 added. Introduced basic flask login concept" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

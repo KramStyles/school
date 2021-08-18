@@ -1,10 +1,11 @@
-from flask import Flask, render_template
-
+from flask import Flask, render_template, redirect
 
 from functions import *
 from config import *
 
 app = Flask(__name__)
+
+app.config['SECRET_KEY'] = 'hello'
 
 
 @app.context_processor
@@ -78,16 +79,19 @@ def register():
     }
     return render_template('register.html', pg=pageInfo)
 
+
 #  ERROR HANDLING PAGES
 @app.errorhandler(404)
 @app.route('/404')
 def error404(error=''):
     return render_template('dashboard/errors/error_400.html')
 
+
 @app.errorhandler(401)
 @app.route('/401')
 def error401(error=''):
     return render_template('dashboard/errors/error_401.html')
+
 
 @app.errorhandler(500)
 @app.route('/500')

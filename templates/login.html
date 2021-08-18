@@ -1,25 +1,27 @@
 {% include 'layouts/header.jinja2' %}
 <div class="site-section">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-md-5">
-<div class="row">
-<div class="col-md-12 form-group">
-<label for="username">Username</label>
-<input type="text" id="username" class="form-control form-control-lg">
-</div>
-<div class="col-md-12 form-group">
-<label for="pword">Password</label>
-<input type="text" id="pword" class="form-control form-control-lg">
-</div>
-</div>
-<div class="row">
-<div class="col-12">
-<input type="submit" value="Log In" class="btn btn-primary btn-lg px-5">
-</div>
-</div>
-</div>
-</div>
-</div>
+    <div class="container">
+        <form action="/sign_in" method="post">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" class="form-control form-control-lg">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <label for="pword">Password</label>
+                            <input type="text" name="pword" class="form-control form-control-lg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="submit" value="Log In" class="btn btn-primary btn-lg px-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
 {% include 'layouts/footer.jinja2' %}
