@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd148326-1f40-41a3-9939-66577c19af09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/database/sql.db" beforeDir="false" afterPath="$PROJECT_DIR$/static/database/sql.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/layouts/layout.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/layouts/layout.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/footer.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/footer.jinja2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,6 +58,7 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -75,6 +74,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/dashboard/errors" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -282,7 +284,8 @@
       <workItem from="1628853947814" duration="2578000" />
       <workItem from="1629117141374" duration="5268000" />
       <workItem from="1629198358137" duration="9173000" />
-      <workItem from="1629288924095" duration="6119000" />
+      <workItem from="1629288924095" duration="6216000" />
+      <workItem from="1629376233003" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary="Just normal flask project">
       <created>1627939161083</created>
@@ -354,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629207337331</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Worked on login successfully and trying to login without Ajax">
+      <created>1629300585291</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629300585291</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +394,8 @@
     <MESSAGE value="fixed the remaining 3 column error" />
     <MESSAGE value="added dashboard files with a single dashboard html layout (add admin)" />
     <MESSAGE value="Error pages 500, 404, 401 added. Introduced basic flask login concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error pages 500, 404, 401 added. Introduced basic flask login concept" />
+    <MESSAGE value="Worked on login successfully and trying to login without Ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on login successfully and trying to login without Ajax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

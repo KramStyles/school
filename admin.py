@@ -1,5 +1,5 @@
 from app import app
-from flask import render_template, redirect, request
+from flask import render_template, redirect, request as re
 from users import User
 from flask_login import LoginManager, login_required, logout_user, login_user, current_user
 from functions import *
@@ -19,16 +19,6 @@ def add_admin():
     return render_template("dashboard/add_admin.html")
 
 
-@app.route('/sign_in', methods=['POST '])
-def sign():
-    # user = request.form.get('username')
-    # psword = request.form.get('pword')
-    # user = request.args.get('username')
-    # psword = request.args.get('pword')
-    user = request.form['username']
-    psword = request.form['pword']
-    return f"Username: {user}, Password: {psword}"
-
 
 @app.route('/sign_in/<user>')
 def sign_in(user):
@@ -37,8 +27,9 @@ def sign_in(user):
     return render_template("dashboard/add_admin.html")
 
 
-@app.route('/check')
-def check():
+@app.route('/check/<info>')
+def check(info):
+    print("Info from check: ", info)
     return current_user.get_id()
 
 
@@ -46,3 +37,23 @@ def check():
 def logout():
     logout_user()
     return redirect('/login')
+
+# METHODS
+
+@app.route('/sign_in', methods=['POST'])
+def sign():
+    user = re.form.get('username')
+    psword = re.form.get('pword')
+    remember = re.form.get('remember')
+    # remember = re.form['remember']
+    rem = False
+    if remember:
+        rem = True
+    # user = re.args.get('username')
+    # psword = re.args.get('pword')
+    # return check(f"Username: {user}, Password: {psword}, {rem}")
+    if checkEmpty([user,psword]):
+        msg = "Fill all fields"
+    else:
+        msg = "Login Valid"
+    return msg
