@@ -8,8 +8,26 @@ $('#btnLogin').click(function (e) {
         method: 'POST',
         data: frm.serialize(),
         success: function (data) {
-            alert(data);
-            btn.html('Log In');
+            if (data != 'ok') {
+                Swal.fire({
+                    title: 'Error!',
+                    text: data,
+                    icon: 'error',
+                    confirmButtonText: 'Try Again'
+                });
+                btn.html('Log In');
+            } else {
+                Swal.fire({
+                    title: 'Bravo!',
+                    text: data,
+                    icon: 'success',
+                    confirmButtonText: 'Ok!'
+                });
+                setTimeout(()=> {
+                    document.location.assign('/add_admin');
+                }, 3000)
+            }
+
         }
     });
 });

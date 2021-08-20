@@ -19,7 +19,6 @@ def add_admin():
     return render_template("dashboard/add_admin.html")
 
 
-
 @app.route('/sign_in/<user>')
 def sign_in(user):
     me = User(user)
@@ -38,6 +37,7 @@ def logout():
     logout_user()
     return redirect('/login')
 
+
 # METHODS
 
 @app.route('/sign_in', methods=['POST'])
@@ -49,11 +49,18 @@ def sign():
     rem = False
     if remember:
         rem = True
-    # user = re.args.get('username')
-    # psword = re.args.get('pword')
-    # return check(f"Username: {user}, Password: {psword}, {rem}")
-    if checkEmpty([user,psword]):
+    if checkEmpty([user, psword]):
         msg = "Fill all fields"
     else:
-        msg = "Login Valid"
+        result = select('admin', f"WHERE username = '{user}'", 'password')
+        if result:
+            db_password = result[0][0]
+            if verify(psword, db_password):
+                me = User(user)
+                login_user(me, remember=rem)
+                msg = 'ok'
+            else:
+                msg = 'Invalid login details'
+        else:
+            msg = "User not found"
     return msg

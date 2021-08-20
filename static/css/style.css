@@ -1,3 +1,15 @@
 .bg-dark{
     background: #888888 !important;
 }
+.mySpin{
+    animation: 2s myspin linear infinite;
+}
+
+@keyframes myspin {
+    0%{
+
+    }
+    100%{
+        transform: rotate(1800deg);
+    }
+}

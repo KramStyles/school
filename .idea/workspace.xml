@@ -2,9 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd148326-1f40-41a3-9939-66577c19af09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/dist/sweetalert2.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/dist/sweetalert2.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/dist/sweetalert2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/dist/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/dist/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/dist/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/SweetAlert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/globalState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/_destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/buttons-handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/close.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/enable-disable-elements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/getInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/hideLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/keydown-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/popup-click-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/progress-steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/show-reset-validation-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/instanceMethods/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/privateMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/privateProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_polyfills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_theming.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_toasts-animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_toasts-body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/staticMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/staticMethods/argsToParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/staticMethods/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/staticMethods/fire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/staticMethods/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/staticMethods/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/staticMethods/showLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/staticMethods/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/sweetalert2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/DismissReason.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/defaultInputValidators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/animationEndEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/domUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/inputUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/measureScrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/parseHtmlToContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderCloseButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderProgressSteps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/dom/renderers/renderTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/ieFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/iosFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/isNodeEnv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/openPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/scrollbarFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/setParameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/src/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/sweetalert/sweetalert2.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/footer.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/footer.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/header.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/header.jinja2" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +157,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/dashboard/errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/vendors" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,16 +165,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\dashboard\layouts" />
+      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\hacker" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static\vendors" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\dashboard\errors" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\dashboard" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static\dashboard" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static\images\pexels" />
-      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\layouts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\dashboard\layouts" />
-      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\hacker" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -283,7 +370,7 @@
       <workItem from="1629117141374" duration="5268000" />
       <workItem from="1629198358137" duration="9173000" />
       <workItem from="1629288924095" duration="6216000" />
-      <workItem from="1629376233003" duration="3841000" />
+      <workItem from="1629376233003" duration="10139000" />
     </task>
     <task id="LOCAL-00001" summary="Just normal flask project">
       <created>1627939161083</created>
@@ -369,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629379883687</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Introduced Ajax with login... Found need to introduce Font awesome for spinning effect on buttons">
+      <created>1629380184356</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1629380184356</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +495,8 @@
     <MESSAGE value="Error pages 500, 404, 401 added. Introduced basic flask login concept" />
     <MESSAGE value="Worked on login successfully and trying to login without Ajax" />
     <MESSAGE value="Introduced Ajax with login..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduced Ajax with login..." />
+    <MESSAGE value="Introduced Ajax with login... Found need to introduce Font awesome for spinning effect on buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduced Ajax with login... Found need to introduce Font awesome for spinning effect on buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
