@@ -12,11 +12,20 @@ loginManager = LoginManager(app)
 def loadUser(username):
     return User(username)
 
+@app.context_processor
+def dash_all():
+    info = {
+        sitename: sitename
+    }
+    return dict(info=info)
 
 @app.route('/add_admin')
 @login_required
 def add_admin():
-    return render_template("dashboard/add_admin.html")
+    pg = {
+        'title' : "add new user"
+    }
+    return render_template("dashboard/add_admin.html", pg=pg)
 
 
 @app.route('/sign_in/<user>')
@@ -64,3 +73,9 @@ def sign():
         else:
             msg = "User not found"
     return msg
+
+# MY METHODS / ACTIONS
+
+@app.route('/new_admin', methods=['POST'])
+def new_admin():
+    return "reached here"

@@ -13,3 +13,20 @@
         transform: rotate(1800deg);
     }
 }
+.hide{
+    display: none !important;
+}
+.common_textarea {
+    height: 47px;
+    line-height: 47px;
+    background-color: transparent;
+    border: 0;
+    padding: 10px 25px;
+    color: #81879F;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #E5ECFF;
+}

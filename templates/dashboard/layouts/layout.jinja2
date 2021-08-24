@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>Management Admin</title>
+    <title>{{ pg['title']|title }} | {{ info['sitename'] }}</title>
 
     <link rel="icon" href="/static/dashboard/img/mini_logo.png" type="image/png">
     <!-- Bootstrap CSS -->
@@ -46,6 +46,8 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="/static/dashboard/css/style.css"/>
     <link rel="stylesheet" href="/static/dashboard/css/colors/default.css" id="colorSkinCSS">
+    <link rel="stylesheet" href="/static/vendors/sweetalert/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body class="crm_body_bg">
 {% block header %}
@@ -552,8 +554,8 @@
                 <div class="page_title_left d-flex align-items-center">
                     <h3 class="f_s_25 f_w_700 dark_text mr_30">Dashboard</h3>
                     <ol class="breadcrumb page_bradcam mb-0">
-                        <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
-                        <li class="breadcrumb-item active">Analytic</li>
+                        <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+                        <li class="breadcrumb-item active font-weight-bold">{{ pg['title']|title }}</li>
                     </ol>
                 </div>
                 <div class="page_title_right">
@@ -759,6 +761,8 @@
 <script src="/static/dashboard/vendors/tagsinput/tagsinput.js"></script>
 <!-- text editor js -->
 <script src="/static/dashboard/vendors/text_editor/summernote-bs4.js"></script>
+<script src="/static/vendors/sweetalert/dist/sweetalert2.all.min.js"></script>
+<script src="/static/js/main.js"></script>
 
 
 <script src="/static/dashboard/js/custom.js"></script>
