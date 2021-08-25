@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd148326-1f40-41a3-9939-66577c19af09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/admin_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/database/sql.db" beforeDir="false" afterPath="$PROJECT_DIR$/static/database/sql.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/add_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/add_admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/dashboard/layouts/layout.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/layouts/layout.jinja2" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,6 +68,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="5c4419c2-67ae-4f42-a7a3-adf51afd389b" />
+  </component>
   <component name="ProjectId" id="1wBj3zvAzfGZeCDflpI1wCD9wgu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -74,12 +78,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/vendors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/dashboard" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -87,9 +91,9 @@
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\hacker" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\dashboard" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static\vendors" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\dashboard\errors" />
-      <recent name="C:\Users\Dell\Documents\PycharmProjects\school\templates\dashboard" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static\dashboard" />
       <recent name="C:\Users\Dell\Documents\PycharmProjects\school\static\images\pexels" />
     </key>
@@ -246,17 +250,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@42368b5d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@42368b5d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@304f830e" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -288,7 +282,8 @@
       <workItem from="1629198358137" duration="9173000" />
       <workItem from="1629288924095" duration="6216000" />
       <workItem from="1629376233003" duration="10884000" />
-      <workItem from="1629794295494" duration="6703000" />
+      <workItem from="1629794295494" duration="8317000" />
+      <workItem from="1629891336255" duration="5188000" />
     </task>
     <task id="LOCAL-00001" summary="Just normal flask project">
       <created>1627939161083</created>
@@ -388,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629460423834</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="turned our ajax push into a function.. we need to make the admin register new admin.">
+      <created>1629810415845</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629810415846</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +424,8 @@
     <MESSAGE value="Introduced Ajax with login..." />
     <MESSAGE value="Introduced Ajax with login... Found need to introduce Font awesome for spinning effect on buttons" />
     <MESSAGE value="Done with login.. Introduced sweet alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with login.. Introduced sweet alert" />
+    <MESSAGE value="turned our ajax push into a function.. we need to make the admin register new admin." />
+    <option name="LAST_COMMIT_MESSAGE" value="turned our ajax push into a function.. we need to make the admin register new admin." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,7 @@
 import json
 from requests import request
 
+
 school_name = "Enugu State College of Education"
 mobile = "+234 808 579 6361"
 mail = "admin@escet.com"

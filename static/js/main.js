@@ -79,6 +79,9 @@ function myAjax(btn, frm, url, to = '') {
                     setTimeout(() => {
                         if (to !== '') document.location.assign(`/${to}`);
                         else if (to == 0) window.top.location = window.top.location;
+                        else{
+                            // Your papa!
+                        }
                     }, 3000)
                 }
 
@@ -88,4 +91,4 @@ function myAjax(btn, frm, url, to = '') {
 }
 
 
-myAjax('#btn-admin-details', '#admin-details', 'new_admin');
+myAjax('#btn-admin-details', '#admin-details', 'new_admin', 'admin');
