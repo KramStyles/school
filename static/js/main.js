@@ -77,8 +77,8 @@ function myAjax(btn, frm, url, to = '') {
                         confirmButtonText: 'Ok!'
                     });
                     setTimeout(() => {
-                        if (to !== '') document.location.assign(`/${to}`);
-                        else if (to == 0) window.top.location = window.top.location;
+                        if (to === 0) window.top.location = window.top.location;
+                        else if (to !== '') document.location.assign(`/${to}`);
                         else{
                             // Your papa!
                         }
@@ -90,5 +90,15 @@ function myAjax(btn, frm, url, to = '') {
     });
 }
 
+$(document).on('click','#icoAdminEdit', function (e) {
+    $('#fname').val($(this).attr('data-name'));
+    $('#mobile').val($(this).attr('data-mobile'));
+    $('#email').val($(this).attr('data-email'));
+    $('#address').val($(this).attr('data-address'));
+    $('#username').text($(this).attr('data-user'));
+    $('#txtUser').val($(this).attr('data-user'));
+});
 
-myAjax('#btn-admin-details', '#admin-details', 'new_admin', 'admin');
+
+myAjax('#btn-admin-details', '#admin-details', 'new_admin', 'admin_list');
+myAjax('#btnAdminEdit', '#frmAdminEdit', 'edit_admin', 'admin_list');

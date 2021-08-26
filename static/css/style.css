@@ -5,6 +5,10 @@
     animation: 2s myspin linear infinite;
 }
 
+.modal-backdrop.fade.show{
+    display: none !important;
+}
+
 @keyframes myspin {
     0%{
 

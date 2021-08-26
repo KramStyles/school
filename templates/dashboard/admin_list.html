@@ -45,8 +45,8 @@
                                 {% for admins in admin_info['admins'] %}
                                     <tr>
                                         <th scope="row"><a href="#" class="question_content"> {{ loop.index }} </a></th>
-                                        <td>{{ admins[2] }}</td>
-                                        <td>{{ admins[1] }}</td>
+                                        <td>{{ admins[2]|title }}</td>
+                                        <td>{{ admins[1]|title }}</td>
                                         <td>{{ admins[4] }}</td>
                                         <td><a href="#">{{ admins[3] }}</a></td>
                                         <td><a href="#">{{ admins[5] }}</a></td>
@@ -54,8 +54,8 @@
                                         <td><a href="#" class="status_btn">Active</a></td>
                                         <td>
                                             <div class="action_btns d-flex">
-                                                <a href="#" class="action_btn mr_10"> <i class="far fa-edit"></i> </a>
-                                                <a href="#" class="action_btn"> <i class="fas fa-trash"></i> </a>
+                                                <a data-user="{{ admins[1]|title }}" data-name="{{ admins[2]|title }}" data-email="{{ admins[4] }}" data-mobile ="{{ admins[3] }}" data-address="{{ admins[5] }}" href="#" class="action_btn mr_10" data-toggle="modal" data-target="#modalAdminList" id="icoAdminEdit"> <i class="far fa-edit"></i> </a>
+                                                <a href="#" class="action_btn" id="icoAdminDelete"> <i class="fas fa-trash"></i> </a>
                                             </div>
                                         </td>
                                     </tr>
@@ -65,6 +65,50 @@
                             </table>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalAdminList" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Edit Admin: <b id="username"></b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="frmAdminEdit">
+                        <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="common_input mb_15">
+                                        <input type="text" placeholder="Full Name" name="fname" id="fname">
+                                        <input type="hidden" id="txtUser" name="username">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="common_input mb_15">
+                                        <input type="tel" placeholder="Phone Number" name="mobile" id="mobile">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="common_input mb_15">
+                                        <input type="text" placeholder="Email Address" name="email" id="email">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="common_input mb_15">
+                                        <textarea type="text" placeholder="Address" name="address" id="address" class="common_textarea form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="btnAdminEdit">Save changes</button>
                 </div>
             </div>
         </div>

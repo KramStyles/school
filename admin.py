@@ -29,6 +29,7 @@ def add_admin():
     }
     return render_template("dashboard/add_admin.html", admin_info=pg)
 
+
 @app.route('/admin_list')
 @login_required
 def admin_list():
@@ -87,6 +88,21 @@ def sign():
     return msg
 
 
+@app.route('/edit_admin', methods=['POST'])
+def edit_admin():
+    username = req.form['username'].lower()
+    fname = req.form['fname'].title()
+    mobile = req.form['mobile']
+    email = req.form['email']
+    address = req.form['address']
+    if checkEmpty([username, fname, email]):
+        msg = "Fill important fields"
+    else:
+        msg = db_update('admin', f"name='{fname}', mobile='{mobile}',"
+                                 f" email='{email}', address='{address}'", f"where username='{username}'")
+    return msg
+
+
 @app.route('/new_admin', methods=['POST'])
 def new_admin():
     username = req.form['username'].lower()
@@ -110,7 +126,5 @@ def new_admin():
         psword = password(psword)
         regdate = datetime.now()
         msg = db_insert('admin', "username, name, mobile, email, address, password, regdate",
-                  f"'{username}','{fname}','{mobile}','{email}','{address}','{psword}','{regdate}'")
+                        f"'{username}','{fname}','{mobile}','{email}','{address}','{psword}','{regdate}'")
     return msg
-
-
